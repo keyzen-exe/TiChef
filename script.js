@@ -10,6 +10,67 @@ fetch("data.json")
 
     })
 
+
+//connection au fichier de data 
+fetch("articles-data.json")
+.then(rep => rep.json())
+.then(data => {
+
+
+    
+    afficheArticle(data)
+
+
+})
+
+// role afficher dans l'html et stock les donnee dans des variable
+// paramettre donnee
+// return pas affiche
+function afficheArticle(donnee) {
+    donnee.forEach(article => {
+
+        let titre = article.titre
+        let date = article.date
+        let img = article.img
+        let auteur = article.auteur
+        let resume = article.resume
+
+
+// role afficher dans la section qui a l'id "article"
+        document.getElementById("article").innerHTML += `
+        
+           <div class="cardArticle">
+        <div class="card-image">
+            <img src="${img}" alt="">
+        </div>
+
+        <div class="card-content">
+
+            <div class="category">
+                ${titre}
+            </div>
+
+            <div class="heading">
+                ${resume}
+                <div>
+                    <p>
+                        ${date}
+                    </p>
+                    <a href="">Lire l'article</a>
+                    <p>${auteur}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        `
+    });
+
+}
+
+
+
+
+
 // Parametre : le tableau d'ingredient a parcourir
 // retour : une chine de caractere avec tous les <li> quantite unite aliment</li>
 function trierIngredients(tableauIngredients){
@@ -23,13 +84,14 @@ function trierIngredients(tableauIngredients){
 }
 
 
+ 
+ // role cherche les etape et cree un li avec les etapes
  // Parametre : le tableau d'Etapes a parcourir
- // // retour : une chine de caractere avec tous les <li> numeroEtape descEtape </li>
-
+ // retour : une chaine de caractere avec tous les <li> numeroEtape descEtape </li>
 function trierEtape(tableauEtape){
     let liste =""
     tableauEtape.forEach(etapes => {
-        liste+= `<li>${etapes.numeroEtape} ${etapes.descEtape}</li>`
+        liste+= `<li>${etapes.descEtape}</li>`
     });
     
     return liste
@@ -131,3 +193,22 @@ function affiche(donnee) {
     });
 
 }
+
+
+//role variable input qui stock les element ecrit dans l'input
+
+const input = document.getElementById("recherche")
+input.addEventListener("input",()=>{
+
+    
+
+})
+
+
+
+
+
+
+
+
+

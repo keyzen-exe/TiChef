@@ -34,7 +34,7 @@ header{
     position: static;
     a{
         display: block;
-        font-size: 15px;
+        font-size: 17px;
         transition: color 0.3s ease;
     }
     ul{
@@ -271,17 +271,97 @@ les resolutions d'ecrans d'apres un petit script sass*/
   .search-bar {
     display: flex;
     align-items: center;
-    margin-right: 700px;
-
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .search-bar input[type="text"] {
+    padding: 5px 16px;
     font-size: 1em;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-left: 220px;
+    width: 300px;
 }
 
 
 
+.bgred{
+  background-color: red;
+}
 
+.hauteur100{
+  height: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* From Uiverse.io by R1SH4BH81 */ 
+.cardArticle {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding-bottom: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  margin-bottom: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left; /* Align text to the left */
+}
+
+.name {
+  font-weight: 600;
+}
+
+
+
+.padd50{
+  padding: 50px;
+}
