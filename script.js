@@ -38,11 +38,11 @@ function afficheArticle(donnee) {
 
 // role afficher dans la section qui a l'id "article"
         document.getElementById("article").innerHTML += `
- <div class="card large-6 flex gap align-center">
+ <div  data-aos="fade-left" class="card large-6 flex gap align-center">
     <!-- partie gauche -->
     <img
       src="${img}"
-      alt="image de steve le poisson en crochet"
+      alt="photo d'un plat ou d'un dessert"
       class="large-6 img-card"
     />
 
@@ -57,7 +57,7 @@ function afficheArticle(donnee) {
       <div class="flex justify-between large-12 align-center">
         <p>${date}</p>
         <p>${auteur}</p>
-        <p class="btn">Lire l'article</p>
+        <p class="btn marginTop">Lire l'article</p>
       </div>
     </div>
   </div>
@@ -69,13 +69,13 @@ function afficheArticle(donnee) {
 
 
 
-
+// role cherche les etape et cree un li avec les ingredients
 // Parametre : le tableau d'ingredient a parcourir
 // retour : une chine de caractere avec tous les <li> quantite unite aliment</li>
 function trierIngredients(tableauIngredients){
         let liste =""
         tableauIngredients.forEach(ingredient => {
-            liste+= `<li>${ingredient.quantite} ${ingredient.unite} ${ingredient.aliment}</li>`
+            liste+= `<li class="espaceLi">${ingredient.quantite} ${ingredient.unite} ${ingredient.aliment}</li>`
         });
         
         return liste
@@ -90,14 +90,12 @@ function trierIngredients(tableauIngredients){
 function trierEtape(tableauEtape){
     let liste =""
     tableauEtape.forEach(etapes => {
-        liste+= `<li>${etapes.descEtape}</li>`
+        liste+= `<li class="espaceLi">${etapes.descEtape}</li>`
     });
     
     return liste
 
 }
-
-
 
 
 // role afficher dans l'html et stock les donnee dans des variable
@@ -114,14 +112,23 @@ function affiche(donnee) {
         let portions = produits.portions
         let ingredients = trierIngredients(produits.ingredients)
         let etapes = trierEtape (produits.etapes)
-        let img = produits.img
+        let images = produits.img;  
+        let img1 = images[0];
+        let img2 = images[1];
+        let img3 = images[2];
+        let img4 = images[3];
+        let img5 = images[4];
+
+        
+
+        
 
 
 
 // role afficher dans la section qui a l'id "carteContainer"
         document.getElementById("carteContainer").innerHTML += `
 
-            <div class="card">
+            <div data-aos="fade-right" class="card" data-nom="${nom.toLowerCase()}">
             <div class="flex gap16 align-center">
                 <h1>${nom}</h1>
                 
@@ -132,37 +139,41 @@ function affiche(donnee) {
                 
             </div>
             <!-- 3 colonnes -->
-            <div class="flex align-start gap32 mt-16">
+            <div class="flex align-start gap32 mt-16 paddB">
                 <!-- Partie images -->
                 <div class="large-3">
                     <div class="align-start flex gap16">
                         <div class="large-12">
-                            <img src="${img}" alt="" class="responsive">
+                            <img src="${img1}" alt="" class="responsive imagePrincipal">
                             <div class="legende">${nom}</div>
                         </div>
-                        <div class="large-4">
-                            <img src="${img}" alt="" class="responsive">
+                        <div class="divSousImg">
+                            <img class="sousImg" src="${img2}" alt="" class="responsive">
                         </div>
-                        <div class="large-4">
-                            <img src="${img}" alt="" class="responsive">
+                        <div class="divSousImg">
+                            <img class="sousImg" src="${img3}" alt="" class="responsive">
                         </div>
-                        <div class="large-4">
-                            <img src="${img}" alt="" class="responsive">
-                        </div>    
+                        <div class="divSousImg">
+                            <img class="sousImg" src="${img4}" alt="" class="responsive">
+                        </div>
+                        <div class="divSousImg">
+                            <img class="sousImg" src="${img5}" alt="" class="responsive">
+                        </div> 
                     </div>
                 </div>
+
                 <!-- Partie ingredients-->
                 <div class="gap32 large-3">
                     <div class="flex gap16">
                         <p class="etiquette"><span class="material-icons material-icons-outlined">
                             restaurant
-                            </span>4</p>
+                            </span>${portions}</p>
                         <p class="etiquette"><span class="material-icons material-icons-outlined">
                             alarm
-                            </span>30min</p>
+                            </span>${tempPreparation}</p>
                         <p class="etiquette"><span class="material-icons material-icons-outlined">
                             local_fire_department
-                            </span>30min</p>
+                            </span>${tempCuisson}</p>
                     </div>
                     <div>
                         <h2>Détails</h2>
@@ -196,13 +207,19 @@ function affiche(donnee) {
 
 //role variable input qui stock les element ecrit dans l'input
 
-const input = document.getElementById("recherche")
-input.addEventListener("input",()=>{
 
-    
 
-})
+const input = document.getElementById("recherche");
+input.addEventListener("input", () => {
+    const filtre = input.value.toLowerCase();
+    const cards = document.querySelectorAll("#carteContainer .card");
 
+    cards.forEach(card => {
+        const nom = card.getAttribute("data-nom");
+        const visible = nom.includes(filtre);
+        card.style.display = visible ? "block" : "none";
+    });
+});
 
 
 

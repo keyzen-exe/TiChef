@@ -6,7 +6,8 @@
             "https://images.pexels.com/photos/4349774/pexels-photo-4349774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/19532090/pexels-photo-19532090/free-photo-of-pasta-served-in-a-restaurant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "https://images.pexels.com/photos/4057736/pexels-photo-4057736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            "https://images.pexels.com/photos/4057736/pexels-photo-4057736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
        ],
        "desc": "Ce classique de la cuisine italienne peut être personnalisé en ajoutant des herbes fraîches comme du basilic ou de l'origan. Vous pouvez également remplacer la viande par une alternative végétale pour une version végétarienne.",
        "difficulte":"moyenne",
@@ -116,7 +117,8 @@
         "https://images.pexels.com/photos/14866629/pexels-photo-14866629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/6358978/pexels-photo-6358978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/27590338/pexels-photo-27590338/free-photo-of-beet-carne-asada-tacos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "https://images.pexels.com/photos/8230019/pexels-photo-8230019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        "https://images.pexels.com/photos/8230019/pexels-photo-8230019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1618906/pexels-photo-1618906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                ],
         "desc": "Ce plat épicé peut être ajusté selon vos goûts : augmentez ou réduisez la quantité de piment, ou ajoutez du maïs pour une touche sucrée. Il est aussi possible de remplacer la viande par du tofu ou des lentilles pour une version végétarienne savoureuse.",
        "difficulte":"facile",
@@ -208,13 +210,17 @@
        ],
        "saison":"toutes saisons"
     },
+
+
+
     {
        "nom":"Salade de quinoa et de légumes grillés",
        "img":[
         "https://images.pexels.com/photos/3872365/pexels-photo-3872365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/9893187/pexels-photo-9893187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/9214013/pexels-photo-9214013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "https://images.pexels.com/photos/9213862/pexels-photo-9213862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        "https://images.pexels.com/photos/9213862/pexels-photo-9213862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/8286788/pexels-photo-8286788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                ],
         "desc": "Cette salade est très flexible : vous pouvez varier les légumes selon la saison ou ajouter des légumineuses comme des pois chiches pour plus de protéines. Un filet de citron ou une sauce au yaourt peut apporter une touche de fraîcheur.",
        "difficulte":"facile",
@@ -309,13 +315,17 @@
        ],
        "saison":"Été"
     },
+
+
+
     {
        "nom":"Pot-au-feu",
        "img":[
             "https://images.pexels.com/photos/3981486/pexels-photo-3981486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/1618914/pexels-photo-1618914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/1320917/pexels-photo-1320917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "https://images.pexels.com/photos/8952367/pexels-photo-8952367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            "https://images.pexels.com/photos/8952367/pexels-photo-8952367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/14987798/pexels-photo-14987798/free-photo-of-nourriture-aliments-casserole-marmite.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     "desc": "Cette recette traditionnelle peut être enrichie avec différents légumes racines selon la saison. N'hésitez pas à varier les morceaux de viande pour un goût plus riche ou à ajouter des épices douces comme le clou de girofle ou le laurier.",
        "difficulte":"moyenne",
@@ -406,13 +416,17 @@
        ],
        "saison":"hiver"
     },
+
+
+
     {
        "nom":"Potage Butternut",
        "img":[
         "https://images.pexels.com/photos/5605521/pexels-photo-5605521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/5605555/pexels-photo-5605555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "https://images.pexels.com/photos/8738021/pexels-photo-8738021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "https://images.pexels.com/photos/28291989/pexels-photo-28291989/free-photo-of-a-bowl-of-soup-sits-on-a-table-next-to-a-spoon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        "https://images.pexels.com/photos/28291989/pexels-photo-28291989/free-photo-of-a-bowl-of-soup-sits-on-a-table-next-to-a-spoon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg"
        ],
        "desc": "Ce potage doux et crémeux peut être relevé avec une pointe de gingembre ou de curry. Vous pouvez aussi ajouter un peu de crème ou de lait de coco pour plus d’onctuosité, ou parsemer de graines grillées pour une touche croquante.",
        "difficulte":"facile",
@@ -516,13 +530,17 @@
        ],
        "saison":"automne"
     },
+
+
+    
     {
-        "nom": "poulet au curry",
+        "nom": "Poulet au curry",
         "img": [
             "https://images.pexels.com/photos/32056777/pexels-photo-32056777/free-photo-of-spicy-chicken-curry-with-rice-cake-in-bowl.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/9738981/pexels-photo-9738981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             "https://images.pexels.com/photos/25884470/pexels-photo-25884470/free-photo-of-meal-in-pan-near-spice-jar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "https://images.pexels.com/photos/9182548/pexels-photo-9182548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            "https://images.pexels.com/photos/9182548/pexels-photo-9182548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/9218754/pexels-photo-9218754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 ],
         "desc":"Cette recette peut être adaptée en fonction de vos préférences en matière d'épices. N'hésitez pas à ajouter plus de légumes ou à ajuster le niveau de piquant en ajoutant des flocons de piment ou des piments frais.",
         "difficulte": "facile",

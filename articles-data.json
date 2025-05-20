@@ -17,7 +17,7 @@
       "titre": "Le guide ultime du pain maison",
       "date": "2025-05-10",
       "img": "https://images.pexels.com/photos/166021/pexels-photo-166021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "auteur": "Julie Morel",
+      "auteur": "Julie Morelle",
       "resume": "Apprenez à faire votre propre pain avec ou sans machine, et maîtrisez la fermentation naturelle."
     },
     {
@@ -33,6 +33,57 @@
       "img": "https://images.pexels.com/photos/32134448/pexels-photo-32134448/free-photo-of-delicious-pavlova-with-fresh-strawberries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "auteur": "Élodie Martin",
       "resume": "Une version moderne de la tarte aux fraises traditionnelle, avec une crème pâtissière légère et une pâte croustillante."
+    },
+    {
+      "titre": "Tarte au citron : la recette de grand-mère revisitée",
+      "date": "2025-05-20",
+      "img": "https://images.pexels.com/photos/31008103/pexels-photo-31008103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Nicolas Ouillon",
+      "resume": "Une version moderne de la tarte au citron traditionnelle, avec une crème onctueuse au citron frais, une pâte sablée croustillante et une meringue italienne légère."
+    },
+    {
+      "titre": "Gratin dauphinois : la recette fondante et authentique",
+      "date": "2025-05-14",
+      "img": "https://newsgeet.com/wp-content/uploads/2025/02/Gratin-Dauphinois-Traditionnel-La-Recette-Authentique-et-Gourmande.jpg.webp",
+      "auteur": "Lucie Bernard",
+      "resume": "Découvrez tous les secrets d’un gratin dauphinois traditionnel, à la fois fondant et généreux, sans fromage ajouté."
+    },
+    {
+      "titre": "Cookies moelleux aux pépites de chocolat",
+      "date": "2025-05-11",
+      "img": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Sophie Delattre",
+      "resume": "Des cookies irrésistiblement moelleux, croustillants sur les bords, parfaits pour le goûter ou une pause gourmande."
+    },
+    {
+      "titre": "Poulet rôti au four et légumes de saison",
+      "date": "2025-05-17",
+      "img": "https://lille.compagnonsdessaisons.com/wp-content/uploads/2023/10/poulet-plat-pommes-terre-orange-500x500.jpg",
+      "auteur": "Jean-Pierre Leclerc",
+      "resume": "Une recette simple mais savoureuse de poulet rôti accompagné de légumes dorés au four, idéale pour un repas familial."
+    },
+    {
+      "titre": "Velouté de potimarron et lait de coco",
+      "date": "2025-05-13",
+      "img": "https://img.cuisineaz.com/660x495/2018/11/06/i143922-veloute-potimarron-coco-curry.webp",
+      "auteur": "Camille Roux",
+      "resume": "Un velouté onctueux et réconfortant, relevé d'une touche de gingembre et de lait de coco, parfait pour les soirées d’automne."
+    },
+    {
+      "titre": "Burgers maison : pain brioché et steak juteux",
+      "date": "2025-05-16",
+      "img": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Mathieu Vidal",
+      "resume": "Réalisez des burgers maison gourmands avec un pain brioché moelleux, un steak savoureux et une sauce faite maison."
+    },
+    {
+      "titre": "Crème brûlée à la vanille : la technique infaillible",
+      "date": "2025-05-20",
+      "img": "https://images.pexels.com/photos/8753645/pexels-photo-8753645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Isabelle Fontaine",
+      "resume": "Apprenez à maîtriser la crème brûlée traditionnelle avec une cuisson parfaite et une croûte caramélisée à souhait."
     }
+    
+    
   ]
   
