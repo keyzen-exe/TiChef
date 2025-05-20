@@ -293,75 +293,36 @@ les resolutions d'ecrans d'apres un petit script sass*/
   height: 100%;
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/* From Uiverse.io by R1SH4BH81 */ 
-.cardArticle {
-  display: flex;
-  align-items: center;
-  width: 400px;
-  background: white;
-  padding: 0.4em;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-image {
-  background-color: rgba(0, 0, 0, 0.1);
-
-  border-radius: 6px;
-  flex-shrink: 0;
-  margin-right: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding-bottom: 5px;
-  text-align: left; /* Align text to the left */
-}
-
-
-
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  margin-bottom: 10px;
-  text-align: left; /* Align text to the left */
-}
-
-
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  text-align: left; /* Align text to the left */
-}
-
-.name {
-  font-weight: 600;
-}
-
-
-
 .padd50{
   padding: 50px;
+}
+
+
+.card {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.img-card {
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+padding-right: 10px;
+}
+
+.btn {
+  background-color: #fb9b2d;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.marginR{
+  margin-left: 200px;
 }

@@ -38,30 +38,29 @@ function afficheArticle(donnee) {
 
 // role afficher dans la section qui a l'id "article"
         document.getElementById("article").innerHTML += `
-        
-           <div class="cardArticle">
-        <div class="card-image">
-            <img src="${img}" alt="">
-        </div>
+ <div class="card large-6 flex gap align-center">
+    <!-- partie gauche -->
+    <img
+      src="${img}"
+      alt="image de steve le poisson en crochet"
+      class="large-6 img-card"
+    />
 
-        <div class="card-content">
+    <!-- partie de droite -->
+    <div class="large-6 flex gap-12 ">
+      <h3>${titre}</h3>
+      <p>
+        ${resume}
+      </p>
 
-            <div class="category">
-                ${titre}
-            </div>
-
-            <div class="heading">
-                ${resume}
-                <div>
-                    <p>
-                        ${date}
-                    </p>
-                    <a href="">Lire l'article</a>
-                    <p>${auteur}</p>
-                </div>
-            </div>
-        </div>
+      <!-- prix + bouton -->
+      <div class="flex justify-between large-12 align-center">
+        <p>${date}</p>
+        <p>${auteur}</p>
+        <p class="btn">Lire l'article</p>
+      </div>
     </div>
+  </div>
         `
     });
 
